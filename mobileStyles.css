@@ -68,6 +68,7 @@
         font-size: 31px;
         transform: scaleY(1.1);
         margin-bottom: 23px;
+        line-height: 3;
     }
 
     .container #banner #introduction #imcs {
