@@ -1,5 +1,24 @@
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 640px) {
+
+    body {
+        box-sizing: border-box;
+    }
+
+    .cursor {
+        display: none;
+    }
+
+    .cursor-dot {
+        display: none;
+    }
+
+    #caret {
+        font-size: 30px;
+        font-weight: 300;
+        color: black;
+        visibility: hidden; 
+    }
 
     header nav {
         display: none;
@@ -104,6 +123,7 @@
         height: 550px;
         margin: 0;
         padding: 30px;
+        overflow: hidden;
     }
 
     .skills h1 {
